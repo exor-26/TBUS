@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/sign_log"
+        android:title="Signup/Login" />
+
+    <item
+        android:id="@+id/booking"
+        android:title="Bookings history" />
+
+    <item
+        android:id="@+id/cancel"
+        android:title="Ticket Cancellation" />
+
+</menu>

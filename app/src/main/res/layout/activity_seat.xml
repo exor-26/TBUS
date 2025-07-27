@@ -1,0 +1,661 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Bold "Video" text at the top left -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat Map"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="?android:textColorPrimary"
+        android:paddingStart="22dp"
+        android:paddingTop="12dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:fillViewport="true"
+    android:background="?attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#E0E0E0" />
+
+        <!-- Main Seat Layout -->
+        <ImageView
+            android:id="@+id/steering_wheel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="230dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_steering_wheel" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Seat Layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp">
+
+                <!-- Left Side: 2 Columns of 12 Seats -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="38dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <!-- Column 1 -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="8dp">
+
+                        <!-- Repeat 12 Seats -->
+                        <TextView
+                            android:id="@+id/seat_01"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="01"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_03"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="03"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_05"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="05"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_07"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="07"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_09"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="09"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_11"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="11"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_13"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="13"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_15"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="15"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_17"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="17"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_19"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="19"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_21"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="21"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+                        <!-- Add 11 more similar seats here -->
+                    </LinearLayout>
+
+                    <!-- Column 2 -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="8dp">
+
+                        <!-- Repeat 12 Seats -->
+                        <TextView
+                            android:id="@+id/seat_02"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="02"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_04"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="04"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_06"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="06"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_08"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="08"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_10"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="10"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_12"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="12"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_14"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="14"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_16"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="16"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_18"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="18"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_20"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="20"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_22"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="22"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+                        <!-- Add 11 more similar seats here -->
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Right Side: 2 Columns of 12 Seats -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <!-- Column 1 -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="2dp"
+                        android:orientation="vertical">
+
+                        <!-- Repeat 12 Seats -->
+                        <TextView
+                            android:id="@+id/seat_23"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/seat_background"
+                            android:gravity="center"
+                            android:text="23"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/seat_25"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="25"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_27"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="27"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_29"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="29"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_31"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="31"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_33"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="33"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_35"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="35"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_37"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="37"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_39"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="39"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_41"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="41"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_43"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="43"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+                        <!-- Add 11 more similar seats here -->
+                    </LinearLayout>
+
+                    <!-- Column 2 -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:orientation="vertical">
+
+                        <!-- Repeat 12 Seats -->
+                        <TextView
+                            android:id="@+id/seat_24"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/seat_background"
+                            android:gravity="center"
+                            android:text="24"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/seat_26"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="26"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_28"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="28"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_30"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="30"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_32"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="32"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_34"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="34"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_36"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="36"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_38"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="38"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_40"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="40"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_42"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="42"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:id="@+id/seat_44"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:gravity="center"
+                            android:text="44"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp"
+                            android:background="@drawable/seat_background"
+                            android:layout_marginBottom="8dp" />
+                        <!-- Add 11 more similar seats here -->
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@drawable/button_background_red">
+
+        <!-- RelativeLayout containing Fare and Price Text -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.3"
+            android:gravity="start">
+
+            <!-- Fare Text (Dynamic) -->
+            <TextView
+                android:id="@+id/fare_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Fare:"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp" />
+
+            <!-- Price Text (Dynamic) -->
+            <TextView
+                android:id="@+id/price_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 650"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="6dp"/>
+        </LinearLayout>
+
+        <!-- Button for "Next" -->
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/curved_rectangle"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</LinearLayout>

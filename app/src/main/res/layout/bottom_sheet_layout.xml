@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/curved_mask"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Small horizontal line at the top -->
+        <View
+            android:layout_width="60dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- TextView for "Boarding Point" label -->
+        <TextView
+            android:id="@+id/boarding_point_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Your Boarding Place"
+            android:textColor="#E7E7E7"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Boarding Point Section -->
+                <LinearLayout
+                    android:id="@+id/boarding_point_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginEnd="100dp">
+
+                    <RadioGroup
+                        android:id="@+id/boarding_point_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+                        <!-- Dynamic boarding points will be added here -->
+                    </RadioGroup>
+                </LinearLayout>
+
+                <!-- Drop-Off Point Section -->
+                <LinearLayout
+                    android:id="@+id/drop_off_point_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginEnd="100dp">
+
+                    <TextView
+                        android:id="@+id/drop_off_point_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose droping place"
+                        android:textStyle="italic"
+                        android:layout_gravity="center"
+                        android:textColor="#E7E7E7"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="30dp" />
+
+                    <RadioGroup
+                        android:id="@+id/drop_off_point_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+                        <!-- Dynamic drop-off points will be added here -->
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="bottom"
+            android:text="Confirm"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background_red"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

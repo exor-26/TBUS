@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#CCCCCC" /> <!-- Light gray background -->
+            <size android:width="100dp" android:height="100dp" /> <!-- Adjust size as needed -->
+        </shape>
+    </item>
+
+    <!-- User icon -->
+    <item android:right="20dp" android:left="20dp" android:top="20dp" android:bottom="20dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_placeholder_profile" /> <!-- Replace with your person icon -->
+    </item>
+
+</layer-list>

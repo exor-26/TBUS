@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <group>
+        <!-- Outer Circle -->
+        <path
+            android:fillColor="#5F8085"
+            android:pathData="M50,5C26.19,5 5,26.19 5,50C5,73.81 26.19,95 50,95C73.81,95 95,73.81 95,50C95,26.19 73.81,5 50,5ZM50,90C28.39,90 10,71.61 10,50C10,28.39 28.39,10 50,10C71.61,10 90,28.39 90,50C90,71.61 71.61,90 50,90Z" />
+
+        <!-- Top Spoke -->
+        <path
+            android:fillColor="#5F8085"
+            android:pathData="M50,15C54,15 68,33 68,40C68,47 62,50 50,50C38,50 32,47 32,40C32,33 46,15 50,15ZM50,40C52.5,40 55,38.5 55,35C55,31.5 52.5,30 50,30C47.5,30 45,31.5 45,35C45,38.5 47.5,40 50,40Z" />
+
+        <!-- Left Spoke -->
+        <path
+            android:fillColor="#6A5656"
+            android:pathData="M15,50C15,54 33,68 40,68C47,68 50,62 50,50C50,38 47,32 40,32C33,32 15,46 15,50ZM40,50C40,52.5 38.5,55 35,55C31.5,55 30,52.5 30,50C30,47.5 31.5,45 35,45C38.5,45 40,47.5 40,50Z" />
+
+        <!-- Right Spoke -->
+        <path
+            android:fillColor="#6A5656"
+            android:pathData="M85,50C85,54 67,68 60,68C53,68 50,62 50,50C50,38 53,32 60,32C67,32 85,46 85,50ZM60,50C60,52.5 61.5,55 65,55C68.5,55 70,52.5 70,50C70,47.5 68.5,45 65,45C61.5,45 60,47.5 60,50Z" />
+
+        <!-- Inner Circle (Hub) -->
+        <path
+            android:fillColor="#5F8085"
+            android:pathData="M50,42C46,42 42,46 42,50C42,54 46,58 50,58C54,58 58,54 58,50C58,46 54,42 50,42ZM50,55C47.24,55 45,52.76 45,50C45,47.24 47.24,45 50,45C52.76,45 55,47.24 55,50C55,52.76 52.76,55 50,55Z" />
+    </group>
+</vector>

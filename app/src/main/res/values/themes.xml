@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TBUS" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <!-- Status bar settings for day mode -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlNormal">@color/iconDefault</item> <!-- Default color -->
+        <item name="colorControlActivated">@color/iconPressed</item> <!-- Active/Pressed state -->
+        <item name="colorControlHighlight">@color/iconPressed</item>
+    </style>
+
+    <style name="Theme.TBUS" parent="Base.Theme.TBUS" />
+</resources>

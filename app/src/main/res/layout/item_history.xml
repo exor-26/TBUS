@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="16dp"
+    android:padding="8dp"
+    android:background="?attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_pnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="PNR" />
+
+        <TextView
+            android:id="@+id/text_transaction_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Transaction ID"
+            android:textColor="?android:textColorPrimary" />
+
+        <TextView
+            android:id="@+id/text_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="from - to"
+            android:textColor="?android:textColorPrimary" />
+
+        <TextView
+            android:id="@+id/text_departure_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Departure Time"
+            android:textColor="?android:textColorPrimary" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the item is pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#AB68EE" /> <!-- Background color when pressed -->
+            <corners android:radius="40dp" />
+            <stroke android:color="#AB68EE" android:width="2dp" /> <!-- Border color when pressed -->
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape>
+            <solid android:color="?attr/colorBackground" /> <!-- Background color based on the theme -->
+            <corners android:radius="40dp" />
+            <stroke android:color="#F3FFFFFF" android:width="2dp" /> <!-- Border color -->
+        </shape>
+    </item>
+</selector>

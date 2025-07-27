@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "267947258266",
+    "project_id": "tbus-1da44",
+    "storage_bucket": "tbus-1da44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267947258266:android:16814de411eeb946ab8a23",
+        "android_client_info": {
+          "package_name": "com.example.tbus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBouASOWAMZKWwSz6lErdyDNTlXEyUZC4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
