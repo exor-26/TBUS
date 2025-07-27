@@ -44,7 +44,7 @@ public class SearchRoutesActivity extends AppCompatActivity {
         setContentView(R.layout.search_route); // layout with RecyclerView
 
         // Initialize Firebase Database
-        firebaseDatabase = FirebaseDatabase.getInstance("https://tbus-1da44-default-rtdb.firebaseio.com");
+        firebaseDatabase = FirebaseDatabase.getInstance("https://tbus-@code-default-rtdb.firebaseio.com");
         databaseReference = firebaseDatabase.getReference("buses"); // Reference to buses node
 
         // Find the RecyclerView in the layout
