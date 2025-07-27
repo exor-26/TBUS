@@ -190,7 +190,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
     private void initiateRazorpayPayment() {
         // Initialize Razorpay Checkout
         Checkout checkout = new Checkout();
-        checkout.setKeyID("rzp_test_7m2awnsY7TQTRT");
+        checkout.setKeyID("rzp_test_@key");
 
         try {
             JSONObject options = new JSONObject();
