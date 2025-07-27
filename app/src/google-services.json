@@ -1,49 +1,49 @@
 {
   "project_info": {
-    "project_number": "267947258266",
-    "project_id": "tbus-1da44",
-    "storage_bucket": "tbus-1da44.firebasestorage.app"
+    "project_number": "@example-123456789",
+    "project_id": "tbus-@code",
+    "storage_bucket": "tbus-@code.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:267947258266:android:16814de411eeb946ab8a23",
+        "mobilesdk_app_id": "@example-123456789:android:......",
         "android_client_info": {
           "package_name": "com.example.tbus"
         }
       },
       "oauth_client": [
         {
-          "client_id": "267947258266-4gjbv919urkoi65s7t8n031f9t4lc9ob.apps.googleusercontent.com",
+          "client_id": "@use_your_client_id.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.tbus",
-            "certificate_hash": "a0ed3800eae227d382b2ad3017bfba191bb81811"
+            "certificate_hash": "@use_csrtificate_for_sha"
           }
         },
         {
-          "client_id": "267947258266-838r7mo6h376um489isggjj0ii265iat.apps.googleusercontent.com",
+          "client_id": "@your_client_id.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.tbus",
-            "certificate_hash": "109980b9df5b98d92aa07b063b7c1183caeaed77"
+            "certificate_hash": "your_client_id.apps.googleusercontent.com"
           }
         },
         {
-          "client_id": "267947258266-gedo4t83t9bel0ikl95l8d03h3luhsr4.apps.googleusercontent.com",
+          "client_id": ".apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBouASOWAMZKWwSz6lErdyDNTlXEyUZC4A"
+          "current_key": "@use_your_api_key"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "267947258266-gedo4t83t9bel0ikl95l8d03h3luhsr4.apps.googleusercontent.com",
+              "client_id": "your_client_id.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
